@@ -1,3 +1,6 @@
+// Created by Greg Lawrence
+// Email: gregory_lawrence@student.uml.edu
+
 // function to get values entered by user when submit is clicked
 // and then call functions to create multiplication table based
 // on those numbers
