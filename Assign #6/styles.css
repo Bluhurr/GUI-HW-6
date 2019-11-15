@@ -46,7 +46,8 @@
 }
 
 #mTContainer{
-    margin: 30px auto;
+    margin: 30px 50px;
+    width: auto;
     background-color: cyan;
     padding: 10px;
 }
@@ -55,5 +56,15 @@
     background-color: white;
     border-style: solid;
     border-bottom: solid;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.row{
+    text-align: ;
+    border-spacing: 30px;
+}
+
+.column{
+    text-align: center;
 }
