@@ -53,11 +53,10 @@ Email: gregory_lawrence@student.uml.edu
 #mTContainer{
     margin: 30px 50px;
     width: auto;
-    background-color: cyan;
-    padding: 10px;
 }
 
 #multTable{
+    margin: auto;
     background-color: white;
     border-style: solid;
     border-bottom: solid;
