@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+Name: Greg Lawrence
+Email: gregory_lawrence@student.uml.edu
+Umass Lowell Computer Science
+Copyright(c) November 14, 2019. May be freely copied or excerpted for educational purposes with credit to the author.
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Greg Lawrence - GUI Student Page</title>
+        <!--Stylesheets-->
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+    </head>
+
+    <body>
+        <h1 id="multHeader">Greg's Multiplication Table</h1>
+
+        <!--This container will hold all the parts of the multiplication table and input boxes etc-->
+        <div id="container">
+            <form id="numInputForm">
+                Enter The Multiplier Range Starting Number: <br><input class="inputNum" type="text" name="1st Num"><br>
+                Enter The Multiplier Range Ending Number: <br><input class="inputNum" type="text" name="2nd Num"><br>
+                Enter The Multiplicand Range Starting Number: <br><input class="inputNum" type="text" name="3rd Num"><br>
+                Enter The Multiplicand Range Ending Number: <br><input class="inputNum" type="text" name="4th NUm"><br>
+
+                <input id="submitButton" type="button" value="Submit" onclick="sub()"></input>
+            </form>
+
+            <div id="mTContainer">
+            </div>
+        </div>
+
+        <!--Link to External Scripts, placed at the bottom of the body so that the page loads efficiently-->
+        <script src="scripts.js" charset="utf-8"></script>
+    </body>
+</html>
